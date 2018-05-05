@@ -1,0 +1,24 @@
+{
+  "name": "starwars",
+  "version": "1.0.0",
+  "description": "a heroku app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyPuricelli/starwars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyPuricelli/starwars/issues"
+  },
+  "homepage": "https://github.com/TonyPuricelli/starwars#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
